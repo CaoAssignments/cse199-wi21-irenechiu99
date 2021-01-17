@@ -7,3 +7,5 @@ http://www.usaco.org/index.php?page=viewproblem2&cpid=916&lang=en
  - Algorithm: Sort/Swap, Graph Coloring, Greedy
 
 ## Idea
+
+## Run Time
