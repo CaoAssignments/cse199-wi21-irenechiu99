@@ -18,7 +18,7 @@ int main()
     vector<int> upper(N); 
     vector<string> type(N);
 
-    // Read the data and store them in three vectors 
+    // Read the data and store them in the three vectors 
     for (int i = 0; i < N; i++) { fin >> type[i] >> lower[i] >> upper[i]; }
 
     // Initilize output ofstream
