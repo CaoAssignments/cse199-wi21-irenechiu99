@@ -12,4 +12,4 @@ http://www.usaco.org/index.php?page=viewproblem2&cpid=917&lang=en
 ## Run Time
 The run time of this program is straight forward. 
 We iterate through the vector which contains N numbr of element twice. 
-Hence, the total run time is 2 * O(N) which leads to O(N).*
+Hence, the total run time is 2 * O(N) which leads to O(N).
