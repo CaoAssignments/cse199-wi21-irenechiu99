@@ -4,7 +4,8 @@
  - For each problem, there is one corresponding folder including a problem_name.cpp (the solution) and a README.md (the analysis). You can access the problem folder through the link bellow.
 
 ## Problem List
-### [USACO 2019 February Contest, Bronze](http://www.usaco.org/index.php?page=feb19results)
+### [USACO 2019 February Contest, Bronze]
+(http://www.usaco.org/index.php?page=feb19results)
 #### [Sleepy Cow Herding](/sleepy-cow-herding/)
  - Problem topics: Number-Line
  - Data types and data structures: N/A
@@ -18,7 +19,8 @@
  - Data types and data structures: 1-d array
  - Problem-solving strategies: Dynamic-Programming
 
-### [USACO 2012 US Open, Bronze](http://www.usaco.org/index.php?page=open12problems)
+### [USACO 2012 US Open, Bronze]
+(http://www.usaco.org/index.php?page=open12problems)
 #### [Cows in a Row](/cows-in-a-row/)
  - Problem topics: Intervals
  - Data types and data structures: 1-d array
@@ -27,7 +29,8 @@
  - Problem topics: Geometry
  - Data types and data structures: 2-d array(pair), Map
  - Problem-solving strategies: Brute-Force, Sorting
-### [USACO 2012 November, Bronze](http://www.usaco.org/index.php?page=nov12problems)
+### [USACO 2012 November, Bronze]
+(http://www.usaco.org/index.php?page=nov12problems)
 #### [Horseshoes](/horseshoes/)
  - Problem topics: Graph, Path
  - Data types and data structures: 2-d array
