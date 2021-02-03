@@ -3,10 +3,9 @@
 http://www.usaco.org/index.php?page=viewproblem2&cpid=917&lang=en
 
 ## Key Concepts
- - Data Structure: Array/Vector
- - Algorithm: Range/Interval Arithmetic Operation
-
-## Idea
+ - Problem topics: Intervals
+ - Data types and data structures: 1-d array
+ - Problem-solving strategies: Dynamic-Programming
 
 
 ## Run Time

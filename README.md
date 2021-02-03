@@ -6,8 +6,29 @@
 ## Problem List
 ### [USACO 2019 February Contest, Bronze](http://www.usaco.org/index.php?page=feb19results)
 #### [Sleepy Cow Herding](/sleepy-cow-herding/)
- - Array/Vector, Sort/Swap
+ - Problem topics: Number-Line
+ - Data types and data structures: N/A
+ - Problem-solving strategies: N/A
 #### [The Great Revegetation](/the-great-revegetation/)
- - Array/Vector, Sort/Swap, Graph Coloring, Greedy
+ - Problem topics: Graph
+ - Data types and data structures: Path, 1-d array
+ - Problem-solving strategies: Brute-Force, Greedy
 #### [Measuring Traffic](/measuring-traffic/)
- - Array/Vector, Range/Interval Arithmetic Operation
+ - Problem topics: Intervals
+ - Data types and data structures: 1-d array
+ - Problem-solving strategies: Dynamic-Programming
+
+### [USACO 2012 US Open, Bronze](http://www.usaco.org/index.php?page=open12problems)
+#### [Cows in a Row](/cows-in-a-row/)
+ - Problem topics: Intervals
+ - Data types and data structures: 1-d array
+ - Problem-solving strategies: Brute-force
+#### [Three Lines](/three-lines/)
+ - Problem topics: Geometry
+ - Data types and data structures: 2-d array(pair), Map
+ - Problem-solving strategies: Brute-Force, Sorting
+### [USACO 2012 November, Bronze](http://www.usaco.org/index.php?page=nov12problems)
+#### [Horseshoes](/horseshoes/)
+ - Problem topics: Graph, Path
+ - Data types and data structures: 2-d array
+ - Problem-solving strategies: Recursion

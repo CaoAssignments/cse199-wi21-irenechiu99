@@ -3,12 +3,9 @@
 http://www.usaco.org/index.php?page=viewproblem2&cpid=915
 
 ## Key Concepts
- - Data Structure: Array/Vector
- - Algorithm: Sort/Swap
-
-## Idea
-
-
+ - Problem topics: Number-Line
+ - Data types and data structures: N/A
+ - Problem-solving strategies: N/A
 
 ## Run Time
 The run time complexity of this program is O(1). 

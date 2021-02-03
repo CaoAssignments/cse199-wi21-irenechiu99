@@ -3,12 +3,9 @@
 http://www.usaco.org/index.php?page=viewproblem2&cpid=916&lang=en
 
 ## Key Concepts
- - Data Structure: Array/Vector
- - Algorithm: Sort/Swap, Graph Coloring, Greedy
-
-## Idea
-
-
+ - Problem topics: Graph
+ - Data types and data structures: Path, 1-d array
+ - Problem-solving strategies: Brute-Force, Greedy
 
 ## Run Time
 The complexity is O(NM). 
