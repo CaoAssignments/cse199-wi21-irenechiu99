@@ -16,4 +16,4 @@ We might prove that the complexity is close to linear time by applying the Tarja
 
 There is another way to reduce the complexity: storing for each vertex the identities of the <= 3 adjacent vertices.
 The run time will be reduced from O(NM) to O(N).
-However, for the given constraints, this optimization is unnecessary.
+However, with the data constraint, this optimization is unnecessary.
