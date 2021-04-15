@@ -42,9 +42,9 @@ int main()
     *  The thing we do differently is to break the loop right after we find a conflict.
     *  By doing this, the runtie should be reduced. This might be proved by amortized complexity model founded by Tarjan.
     *  Even though the worst case is still O(NM), Tarjan's model might be able to prove that the run time of this program is actually linear.
-    *  We might need to do more research on it to make a concrete proof on the run time reduction
+    *  We might need to do more research on it to make a concrete proof on the run time reduction.
     *  However, feel free to play around with the time measurement function and measure the average time needed.
-    *  At my side, the run time was half of the one from the USACO website.
+    *  On my side, the run time was half of the one from the USACO website.
     * 
     *  ref: https://epubs.siam.org/doi/pdf/10.1137/0606031?casa_token=72mBETzNsVkAAAAA:cWFw5QX3lSuh6PK8A8pEWxnJV82s-prJcyMrp1BDsUL1gpqlY121Z6whPgMV4N8-yhDfW5BP2_4
     */
