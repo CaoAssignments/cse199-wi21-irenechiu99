@@ -1,6 +1,7 @@
 #include <iostream>
 #include <queue>
 using namespace std;
+#define VISUAL //------------> Comment this line out if the cout code is not needed
 
 const int MAXN = 100 + 1;
 const int MAXM = 5000;
@@ -42,15 +43,30 @@ void BFS()
     // Start from the barn (node_ID_num = 1) 
     Q.push(node{ 1, 0, 0 });
 
+    #ifdef VISUAL
+    cout << "Bfs(): HEAD[] = " << endl;
+    for (int j = 0; j < 5; j++) cout << Head[j] << endl;
+    cout << "Edge[] = " << endl;
+    for (int j = 0; j < 5; j++) cout << Edge[j].curr << " " << Edge[j].next << " " << Edge[j].Bessie << " " << Edge[j].Elsie << " " << endl;
+    #endif
+
     while (!Q.empty())
     {
         // Get node from the front of the queue, remove it from the queue afterward
         node u = Q.front();
         Q.pop();
+        
+        #ifdef VISUAL
+        cout << "Q:pop(): p = " << u.p << ", t1,t2 = " << u.t1 << u.t2 << endl;
+        #endif
 
         // i = current node we at, loop til the i is equal to the initial i
         for (int i = Head[u.p]; i; i = Edge[i].curr)
         {
+            #ifdef VISUAL
+            cout << "In loop: i = " << i << endl;
+            #endif
+
             // Get the next node v through the edge starting from i
             int v = Edge[i].next;
 
@@ -64,7 +80,8 @@ void BFS()
             f[0][v][u.t1 + Edge[i].Bessie] = 1;
             f[1][v][u.t2 + Edge[i].Elsie] = 1;
 
-            // If next node is equal to the favorite field (the target node)
+            // If next node is equal to the favorite field (the target node) AND B and E can get there with the same amount of time,
+            // Update the minLen
             if (v == n)
             {
                 // Because we need the minimum time we check if its either the given cases
@@ -76,7 +93,7 @@ void BFS()
                     MinLen = min(MinLen, u.t2 + Edge[i].Elsie);
             }
             // case 3: if 
-            // 1. the next node is not the target node
+            // 1. the next node is not the target node AND
             // 2. the (u.t1 + Edge[i].Bessie) or the (u.t2 + Edge[i].Elsie) is less than the current MinLen
             // ----> It is possible for the current next node to be a part of our final path
             //       so that we will push this part of path into the queue
