@@ -86,7 +86,7 @@ int main()
 
     // This problem can be solved by recursion, and we can try all possible paths.
     // The part of the path consisting of '(' is constructed first, 
-    // and this corresponds to second = false (the alst parameter)
+    // and this corresponds to second = false
     if (graph[1][1] == 0)
         calc(1, 1, 1, 0, false);
 

@@ -50,7 +50,7 @@ void BFS()
     cout << "Bfs(): HEAD[] = " << endl;
     for (int j = 0; j < 5; j++) cout << Head[j] << endl;
     cout << "Edge[] = " << endl;
-    for (int j = 0; j < 5; j++) cout << Edge[j].prev_edge << " " << Edge[j].to_node << " " << Edge[j].Bessie << " " << Edge[j].Elsie << " " << endl;
+    for (int j = 0; j < 5; j++) cout << Edge[j].prev_edge << " " << Edge[j].to_field << " " << Edge[j].Bessie << " " << Edge[j].Elsie << " " << endl;
     #endif
 
     while (!Q.empty())
