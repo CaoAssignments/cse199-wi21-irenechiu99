@@ -40,10 +40,10 @@ void calc(int r, int c, int numopen, int numclose, bool second)
         // If that next step has not been visited
         if (unvis[r2][c2])
         {
-            // If the current step is '(' and the next step is ')', \
-            recursion: once a ')' is found, second is marked as true and only ')' can be added to the path. 
-            // If the current step is ')' and the next step is '(', \
-            resursion: once a '(' is found, second is marked as false and only '(' can be added to the path
+            // If the current step is '(' and the next step is ')', 
+            // recursion: once a ')' is found, second is marked as true and only ')' can be added to the path. 
+            // If the current step is ')' and the next step is '(', 
+            // resursion: once a '(' is found, second is marked as false and only '(' can be added to the path
             if (graph[r2][c2] == 1)
                 calc(r2, c2, numopen, numclose + 1, true);
             else if (!second)
@@ -86,7 +86,7 @@ int main()
 
     // This problem can be solved by recursion, and we can try all possible paths.
     // The part of the path consisting of '(' is constructed first, 
-    // and this corresponds to second = false
+    // and this corresponds to second = falsed
     if (graph[1][1] == 0)
         calc(1, 1, 1, 0, false);
 
